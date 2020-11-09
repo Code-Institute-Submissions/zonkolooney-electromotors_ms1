@@ -4,9 +4,9 @@
 ## Sales and repair of Electric Motors
 ## How can we solve YOUR problem today?
 
- This is a website developed with the intent of making life easier for both experienced and novice machine operators and repair/maintenance personnel.   
+ This is a website developed with the intent of making life easier for both experienced and novice machine operators and repair/maintenance personnel who may have difficulty sourcing spares - or help - quickly.   
  It's raison d'etre is to allow the user to make immediate contact to establish either the availability of replacement machinery or to explore the feasabilty of repair to such items.    
- It features a general yet broad content of what Electromotors can do to solve a problem without the user necessarilty needing to understand the complexity of what they are trying to fix.  
+ It features a general yet broad content of what Electromotors can do to solve a problem without the user necessarily needing to understand the complexity of what they are trying to fix.  
  The ultimate objective is to develop a stand-alone APP eventually in conjunction with the website, to improve real-time responses in the future.
 
 [Table of contents](https://github.com/zonkolooney/electromotors_ms1#electromotors)
@@ -70,7 +70,7 @@ in-depth product knowledge being required - particularly in initial stages of th
 3. Clear and concise descriptions
     + Entirely the work and original words of the developer
 4. Accessible contact details for relevant staff to facilitate both in-hours and out-of-hours consulation
-5. Contact forms including photo uploads
+5. Contact forms including the possibilty of photo uploads
     + Forms designed by the developer : photographs see point 2 
 6. WhatsApp integration (not currently achievable)
 
@@ -97,6 +97,9 @@ in-depth product knowledge being required - particularly in initial stages of th
 
         + Inverters
             + What Why and How (Future Development Page)
+        
+        + Miscellaneous - hey it makes for a balance with the above REPAIRS page for continuity of UX!
+
 
 + #### Contacts Page 
     + WHO we are
