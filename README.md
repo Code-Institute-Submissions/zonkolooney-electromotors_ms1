@@ -70,7 +70,7 @@ in-depth product knowledge being required - particularly in initial stages of th
 3. Clear and concise descriptions
     + Entirely the work and original words of the developer
 4. Accessible contact details for relevant staff to facilitate both in-hours and out-of-hours consulation
-5. Contact forms including the possibilty of photo uploads
+5. Contact forms including the possibility of photo uploads
     + Forms designed by the developer : photographs see point 2 
 6. WhatsApp integration (not currently achievable)
 
@@ -83,6 +83,11 @@ in-depth product knowledge being required - particularly in initial stages of th
         +  Bearing replacement
         +  Mechanical Overhaul
         +  Motor Rewinds
+            + Reasons for failure (Future Development Page)
+            + Photo-diagram page to support above (Future Development Page)
+            + Life-cycle of a Motor Rewind 
+                +   ( **PRIORITY** Future Development Page)
+
         +  Fan-deck refurbishments
         +  Pump refurbishments 
 
