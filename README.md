@@ -15,7 +15,7 @@
 # UX
 
 ## User Stories
-1. As a new user of the website I would l like
+1. As a new user of the website I would like
    + to be able understand what services can be offered
    
    + to be guided as to what information I need to impart
@@ -60,35 +60,61 @@ in-depth product knowledge being required - particularly in initial stages of th
 
 
 ## Scope 
-    Features you will include based on your strategy (can/cannot achieve)
+
 1. Ease of navigation throughout the website
+    + At this stage it's a toss-up whether I will do the navigation personally or use Bootstrap 
 
 2. Clear and concise photographs
+    + Mostly taken by the developer
+    + Where acquired elsewhere due credit will be noted
 3. Clear and concise descriptions
+    + Entirely the work and original words of the developer
 4. Accessible contact details for relevant staff to facilitate both in-hours and out-of-hours consulation
 5. Contact forms including photo uploads
+    + Forms designed by the developer : photographs see point 2 
 6. WhatsApp integration (not currently achievable)
 
 ## Structure
-### Repairs Page
-+ Categorize general types of repairs that are offered as follows
++ #### Repairs Page
+    + Categorize general types of repairs that are offered as follows
 
         +  Inspection and assessment services
+        
         +  Bearing replacement
         +  Mechanical Overhaul
         +  Motor Rewinds
         +  Fan-deck refurbishments
         +  Pump refurbishments 
-    How is your information logically grouped on your site
+
++ #### Sales and replacement parts page
+    + Categorise general types of items that are for sale
+        + Electric Motors
+        + Gearboxes
+        + Spares
+        + Capacitors
+            + What they are (Future Development Page)
+            + Styles (Future Development Page)
+
+        + Inverters
+            + What Why and How (Future Development Page)
+
++ #### Contacts Page 
+    + WHO we are
+    + WHERE we are
+    + Contact numbers
+    + Hours of business
+
+
+ 
 ## Skeleton 
 +    Header
         + An easily navigable structure on each of the pages to allow access to any area without confusion.
         + Logo featured on each page with direct link to homepage
 
 + Body 
-+ To be finalised upon web page conjunction
-     + Image and text dependent on each page type
-     + Suitable relative explanations
+    + To be finalised upon web page completion
+        + Image and text dependent on each page type
+        + Suitable relative explanations
 
 
 + Footer    
