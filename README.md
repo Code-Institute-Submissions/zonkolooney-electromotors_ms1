@@ -54,26 +54,52 @@ in-depth product knowledge being required - particularly in initial stages of th
 1. Increase customer base
 
 2. Help and assist with initial enquiries impartially
-3. gi 
+3. Offer expert advice
 4. Pass on knowledge gained from 60+ years of experience in the field
 5. Increase turnover  
 
 
 ## Scope 
-    Featuresyou will include based on your strategy (can/cannot achieve)
+    Features you will include based on your strategy (can/cannot achieve)
+1. Ease of navigation throughout the website
+
+2. Clear and concise photographs
+3. Clear and concise descriptions
+4. Accessible contact details for relevant staff to facilitate both in-hours and out-of-hours consulation
+5. Contact forms including photo uploads
+6. WhatsApp integration (not currently achievable)
 
 ## Structure
 ### Repairs Page
 + Categorize general types of repairs that are offered as follows
-    +  Inspection and assessment services
-    +  Bearing replacement
-    +  Mechanical Overhaul
-    +  Motor Rewinds
-    +  Fan-deck refurbishments
-    +  Pump refurbishments 
+
+        +  Inspection and assessment services
+        +  Bearing replacement
+        +  Mechanical Overhaul
+        +  Motor Rewinds
+        +  Fan-deck refurbishments
+        +  Pump refurbishments 
     How is your information logically grouped on your site
 ## Skeleton 
-    How information is presented –navigation to features etc.
++    Header
+        + An easily navigable structure on each of the pages to allow access to any area without confusion.
+        + Logo featured on each page with direct link to homepage
+
++ Body 
++ To be finalised upon web page conjunction
+     + Image and text dependent on each page type
+     + Suitable relative explanations
+
+
++ Footer    
+    + Links at bottom of all pages to various suppliers webpages which will open in a new window
+    + Links at bottom of all pages to Electromotors Social Media 
+
+**_Please see detailed information in Wireframe section below._**
+
+
+
+
 ## Surface 
     The look and feel of your site -colours, typography, ease of use.
 
