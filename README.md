@@ -2,3 +2,7 @@
 
 # Electromotors
 ## How can we solve YOUR problem today?
+
+[Table of contents](https://github.com/zonkolooney/electromotors_ms1#electromotors)
+
+
