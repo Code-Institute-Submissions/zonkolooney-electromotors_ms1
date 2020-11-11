@@ -86,7 +86,7 @@ in-depth product knowledge being required - particularly in initial stages of th
             + Reasons for failure (Future Development Page)
             + Photo-diagram page to support above (Future Development Page)
             + Life-cycle of a Motor Rewind 
-                +   ( **PRIORITY** Future Development Page)
+                +   _**PRIORITY Future Development Page**_
 
         +  Fan-deck refurbishments
         +  Pump refurbishments 
@@ -95,7 +95,9 @@ in-depth product knowledge being required - particularly in initial stages of th
     + Categorise general types of items that are for sale
         + Electric Motors
         + Gearboxes
+            + Styles (Future Development Page)
         + Spares
+            + Complete list  (Future Development Page)
         + Capacitors
             + What they are (Future Development Page)
             + Styles (Future Development Page)
@@ -103,7 +105,7 @@ in-depth product knowledge being required - particularly in initial stages of th
         + Inverters
             + What Why and How (Future Development Page)
         
-        + Miscellaneous - hey it makes for a balance with the above REPAIRS page for continuity of UX!
+        + Miscellaneous - hey it makes for a balance with the above REPAIRS page for continuity of UX - 6 in each section to assist with page uniformity!
 
 
 + #### Contacts Page 
