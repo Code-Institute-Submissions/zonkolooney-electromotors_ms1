@@ -144,9 +144,19 @@ in-depth product knowledge being required - particularly in initial stages of th
 
 
  
+# Attribution
+[Help with some CSS](https://www.w3schools.com) W3 Schools
+
+Inspecting and repairing commutators
+ (https://www.howacarworks.com/electrical-systems/replacing-dynamo-brushes)
 
 
 
 
 
 
+
+
+BUGS and swatting them!
+
+MAJOR problems with displaying VAVBAR correctlty - might reconsider usie of Bootstrap. Problem arises on responsive resizing down to to mobile now even though my origial design was workibg fine there on start-up.
