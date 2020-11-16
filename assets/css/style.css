@@ -1,16 +1,31 @@
-
-
-#logo {
+* {
+    margin: 0;
     padding: 0;
-    position: right;
 }
 
+header {
+    line-height: 100px ;
+    padding: 0 20px;
+    background: grey ;
+    color: blue;
+}
 
+.logo {
+    line-height: 100px;
+    float: left;
+    text-transform: uppercase;
+
+}
+
+.navmenu {
+    float: right;
+    line-height: 100px;
+}
 
 #menu li {
    
     margin-right: 30px;
-    float: right;
+    
 }
 .displayed {
     display: block;
@@ -84,3 +99,15 @@ img.border {
                 bottom:0;                          
                 left:0;
 }   
+aside {
+  width: 20%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: rgb(198, 241, 248);
+}
+footer.img {
+    border: 1px blue;
+
+}
