@@ -150,6 +150,7 @@ in-depth product knowledge being required - particularly in initial stages of th
 Inspecting and repairing commutators
  (https://www.howacarworks.com/electrical-systems/replacing-dynamo-brushes)
 
+
  
 
 
@@ -161,6 +162,11 @@ Inspecting and repairing commutators
 
 # BUGS and swatting them!
 
-MAJOR problems with displaying NAVBAR correctly - might reconsider usie of Bootstrap. Problem arises on responsive resizing down to to mobile now even though my origial design was workibg fine there on start-up.
-Came across a difficulty with text below rows of photograph not aligning properly. Top heights of text are different
-Learn how to align text at the bottom of a div  
++ MAJOR problems with displaying NAVBAR correctly - might reconsider usie of Bootstrap. Problem arises on responsive resizing down to to mobile now even though my origial design was workibg fine there on start-up.
++ Came across a difficulty with text below rows of photograph not aligning properly. Top heights of text are different
++ **** Learn how to align text at the bottom of a div  
++ Kevin on suupport page VERY helpful on a rainy Sunday afternoon - helped me clear a VERY resilient cache that even survived a complete reboot!
+
+
+# CHANGES to be made
++ need to import fonts to Suitable
