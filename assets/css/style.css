@@ -4,9 +4,9 @@
 }
 
 header {
-    line-height: 100px ;
+    line-height: 100px;
     padding: 0 20px;
-    background: grey ;
+    background: grey;
     color: blue;
 }
 
@@ -99,15 +99,3 @@ img.border {
                 bottom:0;                          
                 left:0;
 }   
-aside {
-  width: 20%;
-  padding-left: 15px;
-  margin-left: 15px;
-  float: right;
-  font-style: italic;
-  background-color: rgb(198, 241, 248);
-}
-footer.img {
-    border: 1px blue;
-
-}
