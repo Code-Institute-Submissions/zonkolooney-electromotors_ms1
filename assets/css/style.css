@@ -3,29 +3,42 @@
     padding: 0;
 }
 
-header {
+/* .headed {
     line-height: 100px;
     padding: 0 20px;
-    background: grey;
-    color: blue;
-}
+    background-color: grey;
+    color: lightskyblue;
+} */
 
-.logo {
+
+
+/* .navmenu {
     line-height: 100px;
-    float: left;
-    text-transform: uppercase;
-
-}
-
-.navmenu {
     float: right;
-    line-height: 100px;
-}
-
-#menu li {
-   
-    margin-right: 30px;
     
+} */
+
+/* .navbar a {
+    color: lightcyan;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+} */
+
+.navbar {
+    background-color: #1D82DE;
+   
+}
+.nav-link {
+     color: darkgray;
+}
+.navbar-brand img {
+    width: 300px;
+
+}
+.navbar-collapse {
+    justify-content: flex-end;
+    padding: 15px;
 }
 .displayed {
     display: block;
@@ -34,8 +47,8 @@ header {
 
 
 img.large {
-    width: 65%;
-    height: 65%;
+    width: 50%;
+    height: 50%;
     margin: 10px;
 }
 
@@ -91,11 +104,21 @@ img.align_center {
 }
 img.border {
     border-bottom: 2px electric blue;
+    padding: 10px;
+    margin-top: 8px;
+    vertical-align: middle;
     
 }
 
 .centertext { 
-                text-align:center;                  
-                bottom:0;                          
-                left:0;
-}   
+    text-align:center;                  
+    bottom:0;                          
+    left:0;
+}  
+
+.motordisplay.img {
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+}
+
