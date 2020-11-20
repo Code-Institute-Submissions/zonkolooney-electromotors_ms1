@@ -109,7 +109,7 @@ img.align_center {
     color: #0892D0
 }
 img.border {
-    border-bottom: 2px white;
+    
     padding: 30px;
     margin-top: 8px;
     vertical-align: middle;
@@ -128,3 +128,9 @@ img.border {
     padding: 20px;
 }
 
+.border {
+    color: white; 
+}
+.img {
+    border: none;
+}
