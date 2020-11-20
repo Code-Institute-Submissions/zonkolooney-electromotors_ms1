@@ -30,7 +30,7 @@
    
 }
 .nav-link {
-     color: darkgray;
+     color: white;
 }
 .nav-middle {
     color: yellow;
@@ -109,8 +109,8 @@ img.align_center {
     color: #0892D0
 }
 img.border {
-    border-bottom: 2px electric blue;
-    padding: 10px;
+    border-bottom: 2px white;
+    padding: 30px;
     margin-top: 8px;
     vertical-align: middle;
     
@@ -123,7 +123,7 @@ img.border {
 }  
 
 .motordisplay.img {
-    height: 400px;
+    height: auto;
     width: 400px;
     padding: 20px;
 }
