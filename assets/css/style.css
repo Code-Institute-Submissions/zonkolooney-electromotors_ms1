@@ -149,7 +149,4 @@ img.border {
     -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
 }
-.flex-container .column.bg-alt{
-    /* background: #b4bac0; */
-    color: yellow;
-}
+
