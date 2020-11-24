@@ -1,5 +1,7 @@
 ![Electromotors Logo](http://electromotors.ie/wp-content/uploads/2013/11/Elec_logo_new_4-e1429715922914.jpg)
 
+
+
 # Electromotors  
 ## Sales and repair of Electric Motors
 ## How can we solve YOUR problem today?
@@ -9,7 +11,6 @@
  It features a general yet broad content of what Electromotors can do to solve a problem without the user necessarily needing to understand the complexity of what they are trying to fix.  
  The ultimate objective is to develop a stand-alone APP eventually in conjunction with the website, to improve real-time responses in the future.
 
-[Table of contents](https://github.com/zonkolooney/electromotors_ms1#electromotors)
 
 
 # UX
@@ -17,7 +18,6 @@
 ## User Stories
 1. As a new user of the website I would like
    + to be able understand what services can be offered
-   
    + to be guided as to what information I need to impart
    + to know Electromotors location and opening times
    + to be able to navigate the site easily
@@ -28,8 +28,7 @@
    + to be able to quote a previous Invoice number for repeat enquiries
    + to have access to more in-depth explanation about
      + who to ask about spare parts availability 
-     + guidance for estimated turnaround times on repairs
-    
+     + guidance for estimated turnaround times on repairs   
     + to see some sample photographs
     + to be able to make suggestions for improvement
 
@@ -37,7 +36,6 @@
 
 #### Project goals
 1. To educate potential clients on what we can offer them 
-
 2. To inform in a simple and concise way without the need for any  
 in-depth product knowledge being required - particularly in initial stages of the request
 3. To offer more in-depth assistance to knowledgeable clients through forms and photograph uploading
@@ -45,14 +43,12 @@ in-depth product knowledge being required - particularly in initial stages of th
 
 #### Customer goals
 1. To feel comfortable in asking questions without embarassment where clients are novices, or inexperienced in particular areas
-
 2. See what is available through concise descriptions and images
 3. Know where Electromotors is based, who to contact, and times of opening
 
 
 #### Company goals
 1. Increase customer base
-
 2. Help and assist with initial enquiries impartially
 3. Offer expert advice
 4. Pass on knowledge gained from 60+ years of experience in the field
@@ -101,19 +97,10 @@ in-depth product knowledge being required - particularly in initial stages of th
         + Capacitors
             + What they are (Future Development Page)
             + Styles (Future Development Page)
-
         + Inverters
             + What Why and How (Future Development Page)
         
         + Miscellaneous - hey it makes for a balance with the above REPAIRS page for continuity of UX - 6 in each section to assist with page uniformity!
-
-
-+ #### Contacts Page 
-    + WHO we are
-    + WHERE we are
-    + Contact numbers
-    + Hours of business
-
 
  
 ## Skeleton 
@@ -129,19 +116,17 @@ in-depth product knowledge being required - particularly in initial stages of th
 
 + Footer    
     + Links at bottom of all pages to various suppliers webpages which will open in a new window
-    + Links at bottom of all pages to Electromotors Social Media 
 
-**_Please see detailed information in Wireframe section below._**
+
++ Wireframes
+**_Please see detailed information in Wireframe section at assets/wireframes_**
 
 
 
 
 ## Surface 
     The look and feel of your site -colours, typography, ease of use.
-
-
-
-
+    Colors to match page-to-page with the Electric "blue" feel
 
  
 # Attribution
@@ -151,14 +136,22 @@ Inspecting and repairing commutators
  (https://www.howacarworks.com/electrical-systems/replacing-dynamo-brushes)
 
 
- 
+ # Testing
+### Technologies Used
 
+##### 1. Languages
 
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/html5-50_groo6o.png)   [HTML5](https://en.wikipedia.org/wiki/HTML5).
+>
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/CSS3-50_slrv0x.png)    [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
 
+##### 2. Integrations
 
-
-
-
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/Bootstrap-50_khpj57.png)   [Bootstrap](https://getbootstrap.com/) - by linking via [BootstrapCDN](https://www.bootstrapcdn.com/) to HTML Doc.
+>
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/fontawesome-50_r5df5h.png) [FontAwesome](https://fontawesome.com/) Icons for Social Media links in Footer.
+>
+> ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/GoogleFonts-50_mx57p6.png) [Google Fonts](https://fonts.google.com/) - Overall Typography import.  
 
 # BUGS and swatting them!
 
@@ -170,3 +163,22 @@ Inspecting and repairing commutators
 
 # CHANGES to be made
 + need to import fonts to Suitable
+### Features
+
+##### Existing Features
+
+> - Designed with HTML5, CSS3 and Bootstrap.
+> - 3 Page site with .
+> - Fixed navigation allows the user to easily navigate, regardless of which page visited.
+> - Fixed footer allows the user quick accessibility to supplier links.
+
+
+##### Features Left to Implement when skills develop
+
+> - Form submission button needs to be functional (once Javascript is learnt).
+> - Integration of Social media Page to have a live update feeds of new developments.
+
+
+##### Responsiveness
+
+![Image](https://github.com/zonkolooney/electromotors_ms1/blob/master/assets/images/Am-I-Responsive_electromotors.jpg)
