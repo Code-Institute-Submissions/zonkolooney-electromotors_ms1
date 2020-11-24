@@ -21,7 +21,7 @@ body {
 }
 
 .navbar-brand img {
-  width: 20rem;
+  width: 25rem;
 }
 
 .navbar-collapse {
@@ -110,7 +110,9 @@ img.border {
   bottom: 0;
   left: 0;
 }
-
+.motordisplay {
+    min-height: 100vh;
+}
 .motordisplay.img {
   height: auto;
   width: 40rem;
@@ -128,4 +130,12 @@ img.border {
   max-height: 10rem;
   min-width: 10rem;
   max-width: 10rem;
+}
+.btn {
+    margin: 20px 20px 20px 0;
+    border: 2px solid #1D82DE;
+    box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
+}
+h3 {
+  m
 }
