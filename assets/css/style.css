@@ -136,5 +136,8 @@ img.border {
 }
 
 .sales-picture {
-    height: 40rem;
+    min-height: 10rem;
+    max-height: 10rem;
+    min-width: 10rem;
+    max-width: 10rem;
 }
