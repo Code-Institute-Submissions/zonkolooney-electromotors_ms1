@@ -26,6 +26,10 @@ body {
     justify-content: flex-end;
     padding: 1.5rem;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
 .navbar-light .navbar-nav .nav-link:hover {
     color: yellow;
 }
@@ -119,21 +123,7 @@ img.border {
     border: none;
 }
 
-.flex-container{
-    width: 80%;
-    min-height: 30rem;
-    min-width: 50rem;
-    margin: 0 auto;
-    display: -webkit-flex; /* Safari */     
-    display: flex; /* Standard syntax */
-}
-.flex-container .column{
-    padding: 1rem;
-    /* background: lightblue; */
-    -webkit-flex: 1; /* Safari */
-    -ms-flex: 1; /* IE 10 */
-    flex: 1; /* Standard syntax */
-}
+
 
 .sales-picture {
     min-height: 10rem;
