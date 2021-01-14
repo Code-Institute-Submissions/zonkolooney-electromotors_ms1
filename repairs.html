@@ -1,328 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Electromotors" content="Electromotors Sales and Repairs of Electric Motors"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>ELM Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Electromotors" content="Electromotors Sales and Repairs of Electric Motors" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>ELM Repairs</title>
 </head>
-<body> 
-<!-- Bespoke nav bar section with logo for Electromotors-->
- <nav class="navbar navbar-expand-md navbar-light ">
-  <a class="navbar-brand" href="https://zonkolooney.github.io/electromotors_ms1/index.html"><img src="assets/images/el_logo.jpg" alt=""></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button><h2 class="nav-middle">Repairs</h2>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-link" href="index.html">Sales <span class="sr-only">(current)</span></a>
-      <a class="nav-link active" href="repairs.html">Repairs</a>
-      <a class="nav-link" href="minimotors.html">MiniMotors</a>
-    </div>
-  </div>
+
+<body>
+    <!-- Bespoke nav bar section with logo for Electromotors-->
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <a class="navbar-brand" href="https://zonkolooney.github.io/electromotors_ms1/index.html"><img
+                src="assets/images/el_logo.jpg" alt="">
+            <!--The above image taken from this author's own website -->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <h2 class="nav-middle">Repairs</h2>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Sales <span class="sr-only">(current)</span></a>
+                <a class="nav-link active" href="repairs.html">Repairs</a>
+                <a class="nav-link" href="minimotors.html">MiniMotors</a>
+            </div>
+        </div>
     </nav>
 
 
-<!--Dropdown menu within page for selecting goto section-->
-                                        
+    <!--Dropdown menu within page for selecting goto section-->
+
     <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" >Types of repair available
-        <span class="caret"></span></button>
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Types of repair
+            available
+            <span class="caret"></span></button>
         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#commutators" data-toggle="tooltip" title= "This is a section that will explain the basics of commutator maintenance"> Commutator Repairs </a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#bearings" data-toggle="tooltip" title= "A section to illustrate the importance of replacement bearings">Bearing Replacement</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#motorrewinds" data-toggle="tooltip" title= "Sometimes motors can not be readily or quickly replaced - we are renowned experts in motor rewinding">Motor Rewinds</a></li>
-        <li role="presentation"><a role="menuitem" tabindex="-1" href="#DC-motor" data-toggle="tooltip" title= "DC motors need experienced personnel to correctly fault-find and repair">DC Motor Overhaul</a></li>
-        <li role="presentation" class="divider"></li>
-        
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#commutators" data-toggle="tooltip"
+                    title="This is a section that will explain the basics of commutator maintenance"> Commutator Repairs
+                </a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#bearings" data-toggle="tooltip"
+                    title="A section to illustrate the importance of replacement bearings">Bearing Replacement</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#motorrewinds" data-toggle="tooltip"
+                    title="Sometimes motors can not be readily or quickly replaced - we are renowned experts in motor rewinding">Motor
+                    Rewinds</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#DC-motor" data-toggle="tooltip"
+                    title="DC motors need experienced personnel to correctly fault-find and repair">DC Motor
+                    Overhaul</a></li>
+            <li role="presentation" class="divider"></li>
+
         </ul>
-  </div>
-  
-
-<!--Start of commutator section of page-->
- <div class="commutators" id="commutators">  
-    <div class="container">
-        <div><h3>Commutator Maintenance</h3></div><hr/>
-            <div class="row">    
-                <div class="col-12 col-md-6">
-                    <div class="grid-element">             
-                        <span>
-                        <img src="https://www.howacarworks.com/illustration/464/cleaning-the-commutator.png" 
-                        alt="Cleaning of a commutator prior to repair"
-                        class="large align_center" />
-                        </span>
-                    </div>                   
-                </div>           
-
-                <div class="col-12 col-md-6">
-                    <div class="grid-element">
-                        <p>Ideally, the armature is positioned correctly in a lathe and the surface of the commutator is skimmed just enough to remove all pitting, and to ensure that the surface is level.
-                           If a lathe is not available, running repairs CAN be made using progressively finer sandpaper.</p>
-                    </div>                   
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="grid-element">                       
-                        <img src="https://www.howacarworks.com/illustration/469/cleaning-the-commutator--2.png" 
-                        alt="Undercutting the commutator slots with a hacksaw blade"
-                        class="large align_center" />   
-                    </div>                   
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="grid-element">                                                  
-                        <p>Undercutting the slots in the commutator is a skilled job, but also vital. If it is not carried out correctly, there may be some of the mica left sitting above the slots which can cause commutation problems.
-                            It is also wise to be careful not to scratch the copper to avoid having to polish it again</p>                      
-                    </div>                   
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="grid-element">
-                        <span>
-                        <img src="https://www.howacarworks.com/illustration/470/cleaning-the-commutator--3.png" 
-                        alt="Cleaning the commutator slots before final polishing"
-                        class="medium align_center" />
-                        </span>
-                    </div>                   
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="grid-element">                                                
-                        <p>The final stage in the reconditioning of the commutator is to ensure that the slots are clean. Any residue of copper remaining will cause a short-circuit that could end up being worse than the ORIGINAL problem!</p>                        
-                    </div>                   
-                </div>     
-            <a href="#top">Return to Repair Menu</a>     
-                                        
-            </div> 
-            <hr/>  
     </div>
 
-</div> <!--End of commutator section of page-->
 
-<!--Start of Bearing Replacement section of page-->
- <div class="bearings" id="bearings">  
-    <div class="container">
-        <div class="row">    
-            <div class="col-12 "><div><h3>Bearing Replacements</h3></div>
-                <div class="grid-element">                                   
-<hr/>
-                        <img src="http://electromotors.ie/wp-content/uploads/2013/12/wide_bearings.jpg" 
-                        alt="Illustration displaying a wide assortment of bearing type"
-                        class="large align_center" />                   
-                </div>                   
+    <!--Start of commutator section of page-->
+    <div class="commutators" id="commutators">
+        <div class="container">
+            <div>
+                <h3>Commutator Maintenance</h3>
             </div>
-
-            <div class="col-12 col-md-6">
-                <div class="grid-element">
-                    <span>   
-                        <img src="https://www.plantengineering.com/wp-content/uploads/sites/4/2015/10/PLE1511_MechSol_SKF1.jpg" 
-                        alt="A selection of damaged and worn bearings"                         
-                        class="large align_center" />
-                    </span>
-                        
-                    </div> 
-                <div class="grid-element">
-                    <span>   
-                        <img src="https://www.kugellager-express.de/media/image/product/6939/md/deep-groove-ball-bearing-6412-open-60x150x35-mm.jpg" 
-                        alt=" SKF type of shielded bearing"                         
-                        class="medium align_center" />
-                    </span>
-                        
-                </div>                   
-            </div>
-                
-            <div class="col-12 col-md-6">
-                <div class="grid-element  centertext">                          
-                    <br/>                         
-                        <p>Modern Electric Motors of a reputable quality do not, in general, fail without unusual external problems causing them to do so.</p>
-                        <p>The one exception to this adage is where bearings are concerned.</p>
-                        <p>One of the few maintenance tasks regularly needed to be carried out on modern equipment is the timely replacement of bearings.</p>
-                        <p>We undertake this repair more often than most – in fact we recommend that bearings are ALWAYS changed when you have gone to the trouble of taking the motor out of service in the first place – and we ALWAYS insist on fitting FAG, SKF or similar.</p>
-                        <p> Electromotors carries a substantial stock of bearings that allows us to undertake fast turnarounds to get you back into production very quickly.</p>                                             
-                </div>                                      
-            </div>
-            <a href="#top">Return to Repair Menu</a>
-                                      
-        </div> <!--End of row section-->
-            <hr/> 
-    </div><!--End of container section-->
-</div> <!--End of Bearing Replacement section of page-->
-
-
-
-
-
-<!--Start of Motor Rewinds section of page-->
- <div class="motorrewinds" id="motorrewinds">  
-    <div class="container">
-        <div class="row">    
-            <div class="col-12 "><div><h3>Motor Rewinds</h3></div>  <hr/>                         
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="grid-element">
-                    <span>   
-                        <img src="https://miro.medium.com/max/500/0*NAxQQ7zdGi7KBqJU.jpg" 
-                        alt="Rewound motor which has been partially reassembled"                         
-                        class="large align_center sales-picture" />
-                    </span>                        
-                </div>                                       
-            </div>
-                
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="grid-element">
-                    <span>   
-                        <img src="https://www.wikihow.com/images/thumb/1/1f/Rewind-an-Electric-Motor-Step-10-Version-4.jpg/aid704209-v4-728px-Rewind-an-Electric-Motor-Step-10-Version-4.jpg" 
-                        alt="Pre-formed coil being inderted in insulated staor slot by hand"                         
-                        class="large align_center sales-picture"/>
-                    </span>                        
-                </div>                                      
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="grid-element">
-                    <span>   
-                        <img src="https://www.seekpng.com/png/full/211-2114050_electric-motor-repair-electric-motor-winding-png.png" 
-                        alt="Motor rewind completed and awaiting application of varnish"                         
-                        class="large align_center sales-picture"/>
-                    </span>                        
-                </div> 
-                                     
-            </div>
-            <a href="#top">Return to Repair Menu</a>
-                
-                   
-               
-                     
-                
-                                        
-        </div> <!--End of row section-->
-        <hr/> 
-    </div><!--End of container section-->
-</div> <!--End of Motor Rewinds section of page-->
-
-
-
-
-
-
-
-<!--Start of DC motor exploded diagram section of page-->
-<div class="DC-motor-exploded" id="DC-motor">  
-    <div class="container">
-        <div class="row">    
-            <div class="col-12 "><div><h3>Exploded diagram of a DC motor</h3></div>
-                <div class="grid-element">                                        
-<hr/>
-                        <img src="https://evmc2.files.wordpress.com/2014/12/step2_img01.jpg?w=470&h=282" 
-                        alt="A DC motor which has been dismantle to show constituent parts"
-                        class="large align_center" />
-                    
-                </div>                   
-            </div>
-
-            <div class="col-12 col-md-6">
-                <div class="grid-element  centertext">                       
-                        <p>Repairing and Maintenance of DC motors are definitely tasks that should only be undertaken by experienced and trained experts.It is very easy to do more damage than good unless proper procedures are followed</p>                           
-                        <p>Services offered include bearing replacement, carbon brush replacement and general overhaul</p><br>
-                        <p>We will willingly undertake to examine your faulty units and report back to on the problems that we find, without charge</p>                                                
-                </div>                   
-            </div>
-                
-            <div class="col-12 col-md-6">
-                <div class="grid-element  centertext">                       
-                        <p>Parts that can be replaced when undertaking maintence of DC motors</p>                                                                           
-                            <p>Ball/Roller Bearings</p>
-                            <p>Worn Carbon Brushes</p> 
-                            <p>Broken Brush Springs</p> 
-                            <p>Armature Windings</p>
-                        <br>                                             
-                </div>                               </div>
-            <a href="#top">Return to Repair Menu</a>               
-                                        
-        </div> <!--End of row section-->
-        <hr/>
-    </div><!--End of container section-->
-</div> <!--End of DC motor exploded diagram section of page-->
-<!-- Footer Section -->
-
-<footer>
-<div class="grid">
-    <div class="container">
-        <div class="col-12 textcenter"> <p>We cordially invite you to visit the websites of our most trusted suppliers</p><hr/></div>
+            <hr />
             <div class="row">
-
-                <!--Footer Suppliers Column One -->
-                <div class="col-6 col-md-4 col-lg-2 col-xl-2"> 
+                <div class="col-12 col-md-6">
                     <div class="grid-element">
-                        <a href="https://www.minimotor.com/en/sales-network/" target="_blank" rel="noopener noreferrer">
-                        <img src="http://electromotors.ie/wp-content/uploads/2013/11/mini_logo.gif" alt="Minimotor Logo"
-                        class="align_center"/></a>
-                        <p class="centertext"><a href="https://www.minimotor.com/en/sales-network/" target="_blank" rel="noopener noreferrer">Minimotor Italy</a></p>
+                        <span>
+                            <img src="https://www.howacarworks.com/illustration/464/cleaning-the-commutator.png"
+                                alt="Cleaning of a commutator prior to repair" class="large align_center" />
+                            <!--The above image taken from "howacarworks" tutorial website -->
+                        </span>
                     </div>
                 </div>
 
-                <!--Footer Suppliers Column Two -->
-                <div class="col-6 col-md-4 col-lg-2 col-xl-2"> 
+                <div class="col-12 col-md-6">
                     <div class="grid-element">
-                        <a href="http://www.ceg.co/products.php" target="_blank" rel="noopener noreferrer">
-                        <img src="http://electromotors.ie/wp-content/uploads/2013/11/CEG_logo_small_1.jpg" alt="CEG Logo"
-                        class="align_center"/></a>
-                        <p class="centertext"><a href="http://www.ceg.co/products.php" target="_blank" rel="noopener noreferrer">CEG Italy</a></p>
-                    </div>
-                </div>
-                <!--Footer Suppliers Column Three -->    
-                <div class="col-6 col-md-4 col-lg-2 col-xl-2">
-                    <div class="grid-element">
-                        <a href="https://www.rotor.nl/Home.aspx" target="_blank" rel="noopener noreferrer">
-                        <img src="http://electromotors.ie/wp-content/uploads/2013/11/rotor_logo_small.jpg" alt="Rotor Logo"
-                        class="align_center"/></a>
-                        <p class="centertext"><a href="https://www.rotor.nl/Home.aspx" target="_blank" rel="noopener noreferrer">Rotor Motors NL</a></p>
+                        <p>Ideally, the armature is positioned correctly in a lathe and the surface of the commutator is
+                            skimmed just enough to remove all pitting, and to ensure that the surface is level.
+                            If a lathe is not available, running repairs CAN be made using progressively finer
+                            sandpaper.</p>
                     </div>
                 </div>
 
-            <!--Footer Suppliers Column Four -->   
-            <div class="col-6 col-md-4 col-lg-2 col-xl-2">
+                <div class="col-12 col-md-6">
                     <div class="grid-element">
-                        <a href="https://www.regalbeloit.com/brands/LEESON" target="_blank" rel="noopener noreferrer">
-                        <img src="http://electromotors.ie/wp-content/uploads/2013/11/Leeson_logo_small.jpg" alt="Leeson Logo"
-                        class="align_center"/></a>
-                        <p class="centertext"><a href="https://www.regalbeloit.com/brands/LEESON" target="_blank" rel="noopener noreferrer">Leeson USA</a></p>
-                   </div>
-            </div>
-            
-            <!--Footer Suppliers Column Five -->      
-            <div class="col-6 col-md-4 col-lg-2 col-xl-2">
-                    <div class="grid-element">
-                    <a href="https://lifasa.com/en/" target="_blank" rel="noopener noreferrer">
-                    <img src="http://electromotors.ie/wp-content/uploads/2013/11/lifasa_small.jpg" alt="International Capacitors Logo"
-                    class="align_center"/></a>
-                     <p class="centertext"><a href="https://lifasa.com/en/" target="_blank" rel="noopener noreferrer">Capacitors</a></p>
-                  </div>
-            </div>
-
-            <!--Footer Suppliers Column Six -->   
-            <div class="col-6 col-md-4 col-lg-2 col-xl-2">
-                    <div class="grid-element">
-                        <a href="https://www.vanhoucke.co.uk/" target="_blank" rel="noopener noreferrer" class="centertext">                  
-                        <img src="http://electromotors.ie/wp-content/uploads/2014/09/mez_logo_kruh1.jpg" alt="Mez Van Houcke Logo"
-                        class="align_center"/></a>
-                        <p class="centertext"><a href="https://www.vanhoucke.co.uk/" target="_blank" rel="noopener noreferrer">MEZ Belgium</a></p>
+                        <img src="https://www.howacarworks.com/illustration/469/cleaning-the-commutator--2.png"
+                            alt="Undercutting the commutator slots with a hacksaw blade" class="large align_center" />
                     </div>
-            </div>
-                
-        </div><!--row div end-->
-    </div> <!--container div end-->
-</div>  <!--grid div end-->       
-</footer>
+                    <!--The above image taken from "howacarworks" tutorial website -->
+                </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                <div class="col-12 col-md-6">
+                    <div class="grid-element">
+                        <p>Undercutting the slots in the commutator is a skilled job, but also vital. If it is not
+                            carried out correctly, there may be some of the mica left sitting above the slots which can
+                            cause commutation problems.
+                            It is also wise to be careful not to scratch the copper to avoid having to polish it again
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="grid-element">
+                        <span>
+                            <img src="https://www.howacarworks.com/illustration/470/cleaning-the-commutator--3.png"
+                                alt="Cleaning the commutator slots before final polishing"
+                                class="medium align_center" />
+                        </span>
+                        <!--The above image taken from "howacarworks" tutorial website -->
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="grid-element">
+                        <p>The final stage in the reconditioning of the commutator is to ensure that the slots are
+                            clean. Any residue of copper remaining will cause a short-circuit that could end up being
+                            worse than the ORIGINAL problem!</p>
+                    </div>
+                </div>
+                <a href="#top">Return to Repair Menu</a>
+
+            </div>
+            <hr />
+        </div>
+
+    </div>
+    <!--End of commutator section of page-->
+
+    <!--Start of Bearing Replacement section of page-->
+    <div class="bearings" id="bearings">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    <div>
+                        <h3>Bearing Replacements</h3>
+                    </div>
+                    <div class="grid-element">
+                        <hr />
+                        <img src="http://electromotors.ie/wp-content/uploads/2013/12/wide_bearings.jpg"
+                            alt="Illustration displaying a wide assortment of bearing type"
+                            class="large align_center" />
+                        <!--The above image taken from this author's own website -->
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="grid-element">
+                        <span>
+                            <img src="https://www.plantengineering.com/wp-content/uploads/sites/4/2015/10/PLE1511_MechSol_SKF1.jpg"
+                                alt="A selection of damaged and worn bearings" class="large align_center" />
+                        </span>
+                        <!--The above image taken from Plant Engineering an Electromotors parts supplier website -->
+
+                    </div>
+                    <div class="grid-element">
+                        <span>
+                            <img src="https://www.kugellager-express.de/media/image/product/6939/md/deep-groove-ball-bearing-6412-open-60x150x35-mm.jpg"
+                                alt=" SKF type of shielded bearing" class="medium align_center" />
+                        </span>
+                        <!--The above image taken from "Kugelager" an Electromotors bearing supplier website -->
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="grid-element  centertext">
+                        <br />
+                        <p>Modern Electric Motors of a reputable quality do not, in general, fail without unusual
+                            external problems causing them to do so.</p>
+                        <p>The one exception to this adage is where bearings are concerned.</p>
+                        <p>One of the few maintenance tasks regularly needed to be carried out on modern equipment is
+                            the timely replacement of bearings.</p>
+                        <p>We undertake this repair more often than most – in fact we recommend that bearings are ALWAYS
+                            changed when you have gone to the trouble of taking the motor out of service in the first
+                            place – and we ALWAYS insist on fitting FAG, SKF or similar.</p>
+                        <p> Electromotors carries a substantial stock of bearings that allows us to undertake fast
+                            turnarounds to get you back into production very quickly.</p>
+                    </div>
+                </div>
+                <a href="#top">Return to Repair Menu</a>
+
+            </div>
+            <!--End of row section-->
+            <hr />
+        </div>
+        <!--End of container section-->
+    </div>
+    <!--End of Bearing Replacement section of page-->
+
+
+
+
+
+    <!--Start of Motor Rewinds section of page-->
+    <div class="motorrewinds" id="motorrewinds">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    <div>
+                        <h3>Motor Rewinds</h3>
+                    </div>
+                    <hr />
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="grid-element">
+                        <span>
+                            <img src="https://miro.medium.com/max/500/0*NAxQQ7zdGi7KBqJU.jpg"
+                                alt="Rewound motor which has been partially reassembled"
+                                class="large align_center sales-picture" />
+                        </span>
+                        <!--The above image taken from "Miro Medium" an online media website -->
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="grid-element">
+                        <span>
+                            <img src="https://www.wikihow.com/images/thumb/1/1f/Rewind-an-Electric-Motor-Step-10-Version-4.jpg/aid704209-v4-728px-Rewind-an-Electric-Motor-Step-10-Version-4.jpg"
+                                alt="Pre-formed coil being inderted in insulated staor slot by hand"
+                                class="large align_center sales-picture" />
+                        </span>
+                        <!--The above image taken from "WikiHow" the renowned how-to website -->
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="grid-element">
+                        <span>
+                            <img src="https://www.seekpng.com/png/full/211-2114050_electric-motor-repair-electric-motor-winding-png.png"
+                                alt="Motor rewind completed and awaiting application of varnish"
+                                class="large align_center sales-picture" />
+                        </span>
+                        <!--The above image taken from "Seek Png" an online photo media website -->
+                    </div>
+
+                </div>
+                <a href="#top">Return to Repair Menu</a>
+
+
+
+
+
+
+            </div>
+            <!--End of row section-->
+            <hr />
+        </div>
+        <!--End of container section-->
+    </div>
+    <!--End of Motor Rewinds section of page-->
+
+
+
+
+
+
+
+    <!--Start of DC motor exploded diagram section of page-->
+    <div class="DC-motor-exploded" id="DC-motor">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    <div>
+                        <h3>Exploded diagram of a DC motor</h3>
+                    </div>
+                    <div class="grid-element">
+                        <hr />
+                        <img src="https://evmc2.files.wordpress.com/2014/12/step2_img01.jpg?w=470&h=282"
+                            alt="A DC motor which has been dismantle to show constituent parts"
+                            class="large align_center" />
+                        <!-- Image from research website https://evmc2.wordpress.com/ -->
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="grid-element  centertext">
+                        <p>Repairing and Maintenance of DC motors are definitely tasks that should only be undertaken by
+                            experienced and trained experts.It is very easy to do more damage than good unless proper
+                            procedures are followed</p>
+                        <p>Services offered include bearing replacement, carbon brush replacement and general overhaul
+                        </p><br>
+                        <p>We will willingly undertake to examine your faulty units and report back to on the problems
+                            that we find, without charge</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="grid-element  centertext">
+                        <p>Parts that can be replaced when undertaking maintence of DC motors</p>
+                        <p>Ball/Roller Bearings</p>
+                        <p>Worn Carbon Brushes</p>
+                        <p>Broken Brush Springs</p>
+                        <p>Armature Windings</p>
+                        <br>
+                    </div>
+                </div>
+                <a href="#top">Return to Repair Menu</a>
+
+            </div>
+            <!--End of row section-->
+            <hr />
+        </div>
+        <!--End of container section-->
+    </div>
+    <!--End of DC motor exploded diagram section of page-->
+
+    <!-- Footer Section -->
+    <!-- Bespoke section with logos and names for Electromotors main Suppliers who have given permission for usage-->
+
+    <footer>
+        <div class="grid">
+            <div class="container">
+                <div class="col-12 textcenter">
+                    <p>We cordially invite you to visit the websites of our most trusted suppliers</p>
+                    <hr />
+                </div>
+                <div class="row">
+
+                    <!--Footer Suppliers Column One -->
+                    <div class="col-6 col-md-4 col-lg-2 col-xl-2">
+                        <div class="grid-element">
+                            <a href="https://www.minimotor.com/en/sales-network/" target="_blank"
+                                rel="noopener noreferrer">
+                                <img src="http://electromotors.ie/wp-content/uploads/2013/11/mini_logo.gif"
+                                    alt="Minimotor Logo" class="align_center" /></a>
+                            <p class="centertext"><a href="https://www.minimotor.com/en/sales-network/" target="_blank"
+                                    rel="noopener noreferrer">Minimotor Italy</a></p>
+                        </div>
+                    </div>
+
+                    <!--Footer Suppliers Column Two -->
+                    <div class="col-6 col-md-4 col-lg-2 col-xl-2">
+                        <div class="grid-element">
+                            <a href="http://www.ceg.co/products.php" target="_blank" rel="noopener noreferrer">
+                                <img src="http://electromotors.ie/wp-content/uploads/2013/11/CEG_logo_small_1.jpg"
+                                    alt="CEG Logo" class="align_center" /></a>
+                            <p class="centertext"><a href="http://www.ceg.co/products.php" target="_blank"
+                                    rel="noopener noreferrer">CEG Italy</a></p>
+                        </div>
+                    </div>
+                    <!--Footer Suppliers Column Three -->
+                    <div class="col-6 col-md-4 col-lg-2 col-xl-2">
+                        <div class="grid-element">
+                            <a href="https://www.rotor.nl/Home.aspx" target="_blank" rel="noopener noreferrer">
+                                <img src="http://electromotors.ie/wp-content/uploads/2013/11/rotor_logo_small.jpg"
+                                    alt="Rotor Logo" class="align_center" /></a>
+                            <p class="centertext"><a href="https://www.rotor.nl/Home.aspx" target="_blank"
+                                    rel="noopener noreferrer">Rotor Motors NL</a></p>
+                        </div>
+                    </div>
+
+                    <!--Footer Suppliers Column Four -->
+                    <div class="col-6 col-md-4 col-lg-2 col-xl-2">
+                        <div class="grid-element">
+                            <a href="https://www.regalbeloit.com/brands/LEESON" target="_blank"
+                                rel="noopener noreferrer">
+                                <img src="http://electromotors.ie/wp-content/uploads/2013/11/Leeson_logo_small.jpg"
+                                    alt="Leeson Logo" class="align_center" /></a>
+                            <p class="centertext"><a href="https://www.regalbeloit.com/brands/LEESON" target="_blank"
+                                    rel="noopener noreferrer">Leeson USA</a></p>
+                        </div>
+                    </div>
+
+                    <!--Footer Suppliers Column Five -->
+                    <div class="col-6 col-md-4 col-lg-2 col-xl-2">
+                        <div class="grid-element">
+                            <a href="https://lifasa.com/en/" target="_blank" rel="noopener noreferrer">
+                                <img src="http://electromotors.ie/wp-content/uploads/2013/11/lifasa_small.jpg"
+                                    alt="International Capacitors Logo" class="align_center" /></a>
+                            <p class="centertext"><a href="https://lifasa.com/en/" target="_blank"
+                                    rel="noopener noreferrer">Capacitors</a></p>
+                        </div>
+                    </div>
+
+                    <!--Footer Suppliers Column Six -->
+                    <div class="col-6 col-md-4 col-lg-2 col-xl-2">
+                        <div class="grid-element">
+                            <a href="https://www.vanhoucke.co.uk/" target="_blank" rel="noopener noreferrer"
+                                class="centertext">
+                                <img src="http://electromotors.ie/wp-content/uploads/2014/09/mez_logo_kruh1.jpg"
+                                    alt="Mez Van Houcke Logo" class="align_center" /></a>
+                            <p class="centertext"><a href="https://www.vanhoucke.co.uk/" target="_blank"
+                                    rel="noopener noreferrer">MEZ Belgium</a></p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--row div end-->
+            </div>
+            <!--container div end-->
+        </div>
+        <!--grid div end-->
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
