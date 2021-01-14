@@ -1,141 +1,153 @@
+/* Set initial margins, padding and font-sizes */
 * {
   margin: 0;
   padding: 0;
   font-size: 1rem;
 }
 
+/* Ensure scalability of font-sizes by applying rem instead of pixels */
 body {
   font-size: 1.6rem;
 }
 
+/* Set the background color for the navigation bar. This is set to be the same as the logo background color*/
 .navbar {
   background-color: #1d82de;
 }
-
+/* Make the navigation items for available pages appear in white */
 .nav-link {
   color: white;
 }
 
+/* Ensure that the navbar descriptive name for the current page is a similar color to the logo text*/
 .nav-middle {
   color: yellow;
 }
-
+/* Declare the required width setting for the main logo*/
 .navbar-brand img {
   width: 25rem;
 }
 
+/* Qualify Bootstrap element to suit collapsed state*/
 .navbar-collapse {
   justify-content: flex-end;
   padding: 1.5rem;
 }
 
+/* Make the navigation items for available pages appear in white for Bootstrap elements*/
 .navbar-light .navbar-nav .nav-link {
   color: white;
 }
 
+/* Ensure that the navbar descriptive name for the current page is a similar color to the logo text for Bootstrap elements*/
 .navbar-light .navbar-nav .nav-link:hover {
   color: yellow;
 }
 
+/* This setting is for a now-obsolete class
 .displayed {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 
+/* Class setting for images to assist in correct display*/
 img.large {
   width: 60%;
   height: 60%;
   margin: 1rem;
 }
 
+/* Class setting for images to assist in correct display*/
 img.medium {
   width: 30%;
   height: 30%;
   margin: 1rem;
 }
 
+/* Class setting for images to assist in correct display*/
 img.small {
   width: 15%;
   height: 15%;
   margin: 1rem;
 }
-
+/* For testing image Positioning - primarily for testing*/
 img.align_left {
   float: left;
   margin-right: auto;
   margin-top: auto;
 }
+
+/* For testing image Positioning - primarily for testing*/
 img.align_right {
   float: right;
   margin-right: auto;
 }
 
+/* For testing image Positioning - primarily for testing*/
 img.align_center {
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
 
+/* Used to disallow floating images on left or right side of an element*/
 .clear {
   clear: both;
 }
 
-.column_left {
-  float: left;
-  width: 40%;
-  margin: 1rem;
-}
-
-.column_right {
-  float: left;
-  width: 40%;
-  margin: 1rem;
-}
+/* This class is used to align and format the sentence above the foooter images*/
 .textcenter {
   padding: 1.5rem;
   text-align: center;
   width: 98%;
   color: #1d82de;
 }
-
+/* This is a class to set a border around all images if required - primarily for test purposes*/
 img.border {
   padding: 3rem;
   margin-top: 0.8rem;
   vertical-align: middle;
 }
 
+/* This class is used to align the images with the text in the footer section*/
 .centertext {
   text-align: center;
   bottom: 0;
   left: 0;
 }
+
+/* Set height parameter for sales page middle-section*/
 .motordisplay {
     min-height: 100vh;
 }
-.motordisplay.img {
-  height: auto;
-  width: 40rem;
-  padding: 2rem;
-}
+
+/* Set border colors to white - mainly for testing*/
 .border {
   border-color: white;
 }
+
+/* Ensure no borders around images*/
 .img {
   border: none;
 }
 
+/* Finite scaling of sales images for formatting on page */
 .sales-picture {
   min-height: 10rem;
   max-height: 10rem;
   min-width: 10rem;
   max-width: 10rem;
 }
+
+/* Formatting of the dropdown button on repair page*/
 .btn {
     margin: 20px 20px 20px 0;
     border: 2px solid #1D82DE;
     box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
 }
+
+/* Setting of margin for h3 headings*/
 h3 {
     margin: 20px 0;
 }
