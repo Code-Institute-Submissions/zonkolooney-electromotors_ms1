@@ -208,21 +208,21 @@ used with the express permission of the copyright owner at Minimotor who gave pe
 
 ## [Git](https://git-scm.com/ )
 
-+ Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+>Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 ## [GitHub](https://github.com/)
 
-+ GitHub is used to store the projects code after being pushed from Git.
+> GitHub is used to store the projects code after being pushed from Git.
 
 ## [Photoshop](https://www.adobe.com/ie/products/photoshop.html)
 
-+ Photoshop was used throughout this project to create and modify the logo, resize and editing images for the website.
+>  Photoshop was used throughout this project to create and modify the logo, resize and editing images for the website.
 
 
 
 # Testing
 ## Validation
-[W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Passed all tests without error
+> [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Passed all tests without error
 
  
 <p>
@@ -233,7 +233,7 @@ used with the express permission of the copyright owner at Minimotor who gave pe
     </a>
 </p>
 
-[W3C Markup Validator ](https://jigsaw.w3.org/css-validator/#validate_by_input)
+> [W3C Markup Validator ](https://jigsaw.w3.org/css-validator/#validate_by_input)
 All threee pages validated without error
 
 ## BUGS discovered during development and swatting them!
@@ -292,6 +292,13 @@ All threee pages validated without error
 + #### to be able to make suggestions for improvement
     + This will be accessible when a Forms page is developed as an extra main page
 
+Testing Environments
+
++ The Website was tested on a variety of commonly used browsers including Firefox, Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+ + The website was viewed, with thanks to many volunteers, on a variety of devices such as Desktop, Laptop, Samsung phones of different varieties and iPhones of several generations/versions
++ A large amount of testing, at many stages of the development, was undertaken to ensure that all pages were linking correctly.
++ Friends and family members, of which there were a lot of different age groups and technical abilities review the website and, in some cases, accompanying documentation to point out any glaringly apparent bugs and/or user experience issues.
+
 # Features
 
 ##### Existing Features
@@ -317,7 +324,7 @@ It took some time to iron out various features but was worth it in the end when 
 
 # Deployment of my site
 
-In order to deploy the website I carried out the following in order
+### In order to deploy the website I carried out the following in order
 1. Log into Github and access the repository, the place where all relevant files are stored safely and locate my 
 [GitHub repository](https://github.com/zonkolooney/electromotors_ms1)
 2. Select /zonkolooney/electromotors_ms1
@@ -326,6 +333,30 @@ In order to deploy the website I carried out the following in order
 5. Where it says Source click the drop-down menu labelled None and select Master Branch
 6. Ensure the /root is the folder and click Save
 7. The page is now deployed
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+
+    $ git clone https://github.com/ zonkolooney /electromotors_ms1 
+
+7. Press Enter. Your local clone will be created.
+
+   
+The above section assisted regarding Forking and Cloning and reassigned to this website by information acquired from https://github.com/Code-Institute-Solutions/SampleREADME
 
 # Declaration
 This website is intended for educational use only
