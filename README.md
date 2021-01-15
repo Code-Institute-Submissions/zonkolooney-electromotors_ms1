@@ -16,12 +16,15 @@
 # UX
 
 ## User Stories
-1. As a new user of the website I would like
-   + to be able understand what services can be offered
+1. As a user of the website I would like to 
+   + Be able to easily understand the main purpose of the site and learn more about the organisation
+   + Be able to easily be able to navigate throughout the site to find content.
+   + Be able understand what services can be offered
    + to be guided as to what information I need to impart
    + to know Electromotors location and opening times
    + to be able to navigate the site easily
-   + to see clean visual images and descriptions 
+   + to see clean visual images and descriptions
+   + to see clear images of products along with relevanyt concise text 
    
 
 2. As a returning visitor I would like
@@ -113,9 +116,9 @@ in-depth product knowledge being required - particularly in initial stages of th
         + Logo featured on each page with direct link to homepage
 
 + Body 
-    + To be finalised upon web page completion
-        + Image and text dependent on each page type
-        + Suitable relative explanations
+    
+    + Image and text dependent on each page type
+    + Suitable relative explanations
 
 
 + Footer    
@@ -129,12 +132,26 @@ in-depth product knowledge being required - particularly in initial stages of th
 
 
 ## Surface 
-I have attempted to create uniformity throughout the website in various shades of Electric Blue to give a feel of flow between pages and featured items, images and text
++ I have attempted to create uniformity throughout the website in various shades of Electric Blue to give a feel of flow between pages and featured items, images and text. 
++ The descriptions of products are quite generic to avoid confusion although will be developed further in sub-pages.
++ The descriptions of the Repair processes attempt to describe concisely what is seen in each of the images.
++ Each page is centered to allow for responsiveness requirements on various devices
  
 # Attribution and Credits
-Help with some CSS and HTML problem solving
+
+#### Gracious thanks to @JimLynx who got me through some difficult issues on a one-to-one basis. He is to be highly commended for his various video calls, which explained lots of things very concisely.I am deeply indebted to him for both his PDFs and his words of wisdom. Thank you kind sir!
+
+#### Help with some CSS and HTML problem solving courtesy of 
 
 https://www.w3schools.com 
+
+#### Assistance with usage and refining of Bootstrap methods, in particular with Grid effects was gleaned from Bootstrap's own pages 
+
+https://getbootstrap.com/docs/5.0/getting-started/introduction/ 
+
+#### ALL text sections are the original work of the author.
+
+#### The majority of the images used are from a website already owned by the author. Those that are not, are referenced below.
 
 #### Inspecting and repairing commutators on the Repairs page was greatly assisted by the use of some very clear images of the methods used which I copied from
  https://www.howacarworks.com/electrical-systems/replacing-dynamo-brushes) with the only modification being resizing to suit the page layout.
@@ -159,7 +176,7 @@ https://www.wikihow.com/images/thumb/1/1f/Rewind-an-Electric-Motor-Step-10-Versi
 #### The Exploded diagram of the DC motor
  
 
-"A DC motor which has been dismantle to show constituent parts" 
+"A DC motor which has been dismantled to show constituent parts" 
 
 A VERY descriptive and clear image was taken from
 
@@ -189,10 +206,25 @@ used with the express permission of the copyright owner at Minimotor who gave pe
 >
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/GoogleFonts-50_mx57p6.png) [Google Fonts](https://fonts.google.com/) - Overall Typography import.  
 
+## [Git](https://git-scm.com/ )
+
++ Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+## [GitHub](https://github.com/)
+
++ GitHub is used to store the projects code after being pushed from Git.
+
+## [Photoshop](https://www.adobe.com/ie/products/photoshop.html)
+
++ Photoshop was used throughout this project to create and modify the logo, resize and editing images for the website.
+
+
+
 # Testing
 ## Validation
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) Passed all tests without error
 
-1. CSS validated on https://jigsaw.w3.org/css-validator/
+ 
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -201,8 +233,8 @@ used with the express permission of the copyright owner at Minimotor who gave pe
     </a>
 </p>
 
-2. HTML Validated
-All threee pages validated on https://validator.w3.org/ 
+[W3C Markup Validator ](https://jigsaw.w3.org/css-validator/#validate_by_input)
+All threee pages validated without error
 
 ## BUGS discovered during development and swatting them!
 + MAJOR problems with displaying NAVBAR correctly - might reconsider use of Bootstrap. Problem arises on responsive resizing down to to mobile now even though my original design was working fine there on start-up.
@@ -216,20 +248,29 @@ All threee pages validated on https://validator.w3.org/
 + Responsiveness obliterated almost completely on some devices
     + Altered the position of some Horizontal Rules that I had added late on in the design. Whilst making a difference to the overall appearance, were in the wrong positions within DIVs and were causing distortion.
 + Errors on video display controls
-    +   Obtained the latest video link for YouTube from my colleagues in Minimotor, along with permission to use them
+    +   Obtained the latest video link for YouTube from my colleagues in Minimotor, along with permission to use same.
 + Logo on navigation bar was not linking back to the Home page
     + Changed the href "#" to the href for the index.html 
 + Links on the footer Logo displays not opening correctly on new tabs as intended
-    + Altered the the href by adding _blank to each one to ensure compliance
-
-    
-
-
+    + Altered the href by adding _blank to each one to ensure compliance
+ 
 ## Testing relative to User Stories
+
+### First Time Visitor 
+
++ #### As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation
+    + The navigation banner, present on all pages, clearly indicates the purpose with 3 links defined.
+    + On the Sales page there are four clearly defined product areas.
+    + On the Repairs page there are clear diagrams, accompanied by simple and concise explanations accessible by scrolling and/or clicking on menu button. The end of each section shows an option to return to the repairs menu.
+
++ #### I want to be able to easily be able to navigate throughout the site to find content.
+    + All navigation links have been tested to ensure that they send the user to the correct page.
+    + The logo on each page has been tested to ensure that it links back to the Home page
 
 + #### To be able to understand what services can be offered
     + In general the feedback from seven different volunteers was that the bare bones of what we do in Electromotors was accurately announced, there was room for more webpages which could develop the information in a much broader sense. I explained that the current brief was for 3 pages
     + Feedback following this explanation resulted in a "less is more" rewrite of some information to avoid confusion. In essence what I did was to slim down the information displayed to avoid overload from a UX perspective.
+
 + #### To be guided as to what information I need to impart
     + The general feedback from this was that I did NOT achieve that goal in any meaningful way at this stage. I intend to return to this issue by developing sub-pages for both Sales and Repairs where the nitty gritty that i decided not to implement in the original  pages as explained above would be more desirable. One example would be with the Sales page and the section on Three Phase motors that I could explain in depth what types there were and include a form for the client to ask about specifics
 
@@ -239,6 +280,17 @@ All threee pages validated on https://validator.w3.org/
 + #### To be able to navigate the site easily.
     + Through  a process of ongoing opinion from my volunteers, I altered this as I developed the site. The headings were made easier to understand and Repairs, for example was reduced from the former Repairs and Spares title.
     + Following consulation with at least 2 people it was decided that it would be better UX to display the page that was landed on within the Navigation Bar in a larger font in addition to the smaller link on the right hand side. I believe that made a MUCH better impact on the clarity of where the viewer was at any time
+
+### Returning Visitor 
+
++ #### As a returning visitor to be able to quote a previous Invoice number for repeat enquiries
+    + This will be accessible when a Forms page is developed as an extra main page
++ #### to have access to more in-depth explanation about who to ask about spare parts availability and for  guidance for estimated turnaround times on repairs
+    + This will be accessible when an About Us page is developed as an extra main page
++ #### to see some sample photographs
+    + There ARE some photos include within the various pages but this issue will only be resolved upon development of sub pages
++ #### to be able to make suggestions for improvement
+    + This will be accessible when a Forms page is developed as an extra main page
 
 # Features
 
