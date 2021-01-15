@@ -58,7 +58,7 @@ in-depth product knowledge being required - particularly in initial stages of th
 ## Scope 
 
 1. Ease of navigation throughout the website
-    + At this stage it's a toss-up whether I will do the navigation personally or use Bootstrap 
+    + Bootstrap eventually convinced me that it was the ONLY way to go for ease of display protocols and balancing content for UX appearance
 
 2. Clear and concise photographs
     + Mostly taken by the developer
@@ -74,8 +74,7 @@ in-depth product knowledge being required - particularly in initial stages of th
 + #### Repairs Page
     + Categorize general types of repairs that are offered as follows
 
-        +  Inspection and assessment services
-        
+        +  Commutator Maintenance        
         +  Bearing replacement
         +  Mechanical Overhaul
         +  Motor Rewinds
@@ -84,23 +83,28 @@ in-depth product knowledge being required - particularly in initial stages of th
             + Life-cycle of a Motor Rewind 
                 +   _**PRIORITY Future Development Page**_
 
-        +  Fan-deck refurbishments
-        +  Pump refurbishments 
+        +  Exploded diagram of a DC motor
+        +  Pump refurbishments (Future Development Page)
 
 + #### Sales and replacement parts page
     + Categorise general types of items that are for sale
-        + Electric Motors
-        + Gearboxes
-            + Styles (Future Development Page)
-        + Spares
-            + Complete list  (Future Development Page)
-        + Capacitors
+        + Electric Motors - Three Phase
+
+        + Electric Motors - Single Phase
+
+        + Run Capacitors
             + What they are (Future Development Page)
             + Styles (Future Development Page)
-        + Inverters
+
+        + Frequency Inverters
             + What Why and How (Future Development Page)
+
+        + Gearboxes
+            + Styles (Future Development Page)
+
+        + Spares
+            + Complete list  (Future Development Page)
         
-        + Miscellaneous - hey it makes for a balance with the above REPAIRS page for continuity of UX - 6 in each section to assist with page uniformity!
 
  
 ## Skeleton 
@@ -125,15 +129,45 @@ in-depth product knowledge being required - particularly in initial stages of th
 
 
 ## Surface 
-    The look and feel of your site -colours, typography, ease of use.
-    Colors to match page-to-page with the Electric "blue" feel
-
+I have attempted to create uniformity throughout the website in various shades of Electric Blue to give a feel of flow between pages and featured items, images and text
  
-# Attribution
+# Attribution and Credits
 [Help with some CSS](https://www.w3schools.com) W3 Schools
 
-Inspecting and repairing commutators
- (https://www.howacarworks.com/electrical-systems/replacing-dynamo-brushes)
+## Inspecting and repairing commutators on the Repairs page was greatly assisted by the use of some very clear images of the methods used which I copied from
+ (https://www.howacarworks.com/electrical-systems/replacing-dynamo-brushes) with the only modification being resizing to suit the page layout.
+
+## For the Bearing Replacement section of this same page I was impressed by the quality of the images on both of the following sites
+
+https://www.plantengineering.com/wp-content/uploads/sites/4/2015/10/PLE1511_MechSol_SKF1.jpg
+
+https://www.kugellager-express.de/media/image/product/6939/md/deep-groove-ball-bearing-6412-open-60x150x35-mm.jpg
+
+## The motor rewind photos were taken from the following sites
+
+"Rewound motor which has been partially reassembled"
+https://www.wikihow.com/images/thumb/1/1f/Rewind-an-Electric-Motor-Step-10-Version-4.jpg/aid704209-v4-728px-Rewind-an-Electric-Motor-Step-10-Version-4.jpg
+
+"Motor rewind completed and awaiting application of varnish"
+https://www.seekpng.com/png/full/211-2114050_electric-motor-repair-electric-motor-winding-png.png
+
+"Pre-formed coil being inserted in insulated stator slot by hand"
+https://www.wikihow.com/images/thumb/1/1f/Rewind-an-Electric-Motor-Step-10-Version-4.jpg/aid704209-v4-728px-Rewind-an-Electric-Motor-Step-10-Version-4.jpg
+
+## The Exploded diagram of the DC motor
+ 
+
+"A DC motor which has been dismantle to show constituent parts" 
+
+A VERY descriptive and clear image was taken from
+
+"https://evmc2.files.wordpress.com/2014/12/step2_img01.jpg?w=470&h=282"
+
+## The video on the Minimotors page
+"https://www.youtube.com/embed/6iM52ibrN1s"
+
+Was copied from my own website and 
+used with the express permission of the copyright owner at Minimotor who gave permission for the YouTube link to be embedded
 
 
  # Testing
@@ -153,7 +187,8 @@ Inspecting and repairing commutators
 >
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/GoogleFonts-50_mx57p6.png) [Google Fonts](https://fonts.google.com/) - Overall Typography import.  
 
-# BUGS and swatting them!
+
+# BUGS and swatting them!...................or TESTING to give it the proper heading
 
 + MAJOR problems with displaying NAVBAR correctly - might reconsider usie of Bootstrap. Problem arises on responsive resizing down to to mobile now even though my origial design was workibg fine there on start-up.
 + Came across a difficulty with text below rows of photograph not aligning properly. Top heights of text are different
@@ -161,8 +196,7 @@ Inspecting and repairing commutators
 + Kevin on suupport page VERY helpful on a rainy Sunday afternoon - helped me clear a VERY resilient cache that even survived a complete reboot!
 
 
-# CHANGES to be made
-+ need to import fonts to Suitable
+
 ### Features
 
 ##### Existing Features
