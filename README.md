@@ -182,3 +182,15 @@ Inspecting and repairing commutators
 ##### Responsiveness
 
 ![Image](https://github.com/zonkolooney/electromotors_ms1/blob/master/assets/images/Am-I-Responsive_electromotors.jpg)
+
+# Deployment of my site
+
+In order to deploy the website I carried out the following in order
+1. Log into Github and access the repository, the place where all relevant files are stored safely and locate my 
+[GitHub repository](https://github.com/zonkolooney/electromotors_ms1)
+2. Select /zonkolooney/electromotors_ms1
+3. On the tab bar select the Settings tab which is beside the little gear wheel on the right-hand side
+4. Scroll down until you get to the GitHub Pages section
+5. Where it says Source click the drop-down menu labelled None and select Master Branch
+6. Ensure the /root is the folder and click Save
+7. The page is now deployed
