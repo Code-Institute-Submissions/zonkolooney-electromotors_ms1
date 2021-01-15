@@ -68,8 +68,8 @@ in-depth product knowledge being required - particularly in initial stages of th
     + Where acquired elsewhere due credit will be noted
 3. Clear and concise descriptions
     + Entirely the work and original words of the developer
-4. Accessible contact details for relevant staff to facilitate both in-hours and out-of-hours consulation
-5. Contact forms including the possibility of photo uploads
+4. Accessible contact details for relevant staff to facilitate both in-hours and out-of-hours consulation (Future Development Page)
+5. Contact forms including the possibility of photo uploads (Future Development Page)
     + Forms designed by the developer : photographs see point 2 
 6. WhatsApp integration (not currently achievable)
 
@@ -79,7 +79,7 @@ in-depth product knowledge being required - particularly in initial stages of th
 
         +  Commutator Maintenance        
         +  Bearing replacement
-        +  Mechanical Overhaul
+        +  Mechanical Overhaul (Future Development Page)
         +  Motor Rewinds
             + Reasons for failure (Future Development Page)
             + Photo-diagram page to support above (Future Development Page)
@@ -206,15 +206,15 @@ used with the express permission of the copyright owner at Minimotor who gave pe
 >
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/GoogleFonts-50_mx57p6.png) [Google Fonts](https://fonts.google.com/) - Overall Typography import.  
 
-## [Git](https://git-scm.com/ )
+## 3. [Git](https://git-scm.com/ )
 
 >Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-## [GitHub](https://github.com/)
+## 4. [GitHub](https://github.com/)
 
 > GitHub is used to store the projects code after being pushed from Git.
 
-## [Photoshop](https://www.adobe.com/ie/products/photoshop.html)
+## 5. [Photoshop](https://www.adobe.com/ie/products/photoshop.html)
 
 >  Photoshop was used throughout this project to create and modify the logo, resize and editing images for the website.
 
@@ -292,7 +292,7 @@ All threee pages validated without error
 + #### to be able to make suggestions for improvement
     + This will be accessible when a Forms page is developed as an extra main page
 
-Testing Environments
+### Testing Environments
 
 + The Website was tested on a variety of commonly used browsers including Firefox, Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
  + The website was viewed, with thanks to many volunteers, on a variety of devices such as Desktop, Laptop, Samsung phones of different varieties and iPhones of several generations/versions
@@ -359,4 +359,4 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 The above section assisted regarding Forking and Cloning and reassigned to this website by information acquired from https://github.com/Code-Institute-Solutions/SampleREADME
 
 # Declaration
-This website is intended for educational use only
+This website is intended for educational purposes only and whilst that is the case, I would implore you to respect the fact that the intellectual property and content belongs solely to this author
