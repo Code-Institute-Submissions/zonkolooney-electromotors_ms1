@@ -132,10 +132,12 @@ in-depth product knowledge being required - particularly in initial stages of th
 I have attempted to create uniformity throughout the website in various shades of Electric Blue to give a feel of flow between pages and featured items, images and text
  
 # Attribution and Credits
-[Help with some CSS](https://www.w3schools.com) W3 Schools
+Help with some CSS and HTML problem solving
+
+https://www.w3schools.com 
 
 #### Inspecting and repairing commutators on the Repairs page was greatly assisted by the use of some very clear images of the methods used which I copied from
- (https://www.howacarworks.com/electrical-systems/replacing-dynamo-brushes) with the only modification being resizing to suit the page layout.
+ https://www.howacarworks.com/electrical-systems/replacing-dynamo-brushes) with the only modification being resizing to suit the page layout.
 
 #### For the Bearing Replacement section of this same page I was impressed by the quality of the images on both of the following sites
 
@@ -173,13 +175,13 @@ used with the express permission of the copyright owner at Minimotor who gave pe
 
 # Technologies Used
 
-##### 1. Languages
+### 1. Languages
 
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/html5-50_groo6o.png)   [HTML5](https://en.wikipedia.org/wiki/HTML5).
 >
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593529419/Logos/CSS3-50_slrv0x.png)    [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
 
-##### 2. Integrations
+### 2. Integrations
 
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/Bootstrap-50_khpj57.png)   [Bootstrap](https://getbootstrap.com/) - by linking via [BootstrapCDN](https://www.bootstrapcdn.com/) to HTML Doc.
 >
@@ -187,16 +189,58 @@ used with the express permission of the copyright owner at Minimotor who gave pe
 >
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/GoogleFonts-50_mx57p6.png) [Google Fonts](https://fonts.google.com/) - Overall Typography import.  
 
+# Testing
+## Validation
 
-# BUGS and swatting them!
+1. CSS validated on https://jigsaw.w3.org/css-validator/
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+2. HTML Validated
+All threee pages validated on https://validator.w3.org/ 
+
+## BUGS discovered during development and swatting them!
 + MAJOR problems with displaying NAVBAR correctly - might reconsider use of Bootstrap. Problem arises on responsive resizing down to to mobile now even though my original design was working fine there on start-up.
+
+    + Originally intended to design my own bespoke navbar but solved the problem by using BootstrapCDN methods. Made a HUGE difference with responsiveness
 + Came across a difficulty with text below rows of photograph not aligning properly. Top heights of text are different
-+ **** Learn how to align text at the bottom of a div  
-+ Kevin on suupport page VERY helpful on a rainy Sunday afternoon - helped me clear a VERY resilient cache that even survived a complete reboot!
+
+    + Resolved the problem by restricting the size of the images to be uniform and susbequently carefully selecting what test to use for uniformity
++ Caching causing problems with previewing the website
+    + Kevin on support page VERY helpful on a rainy Sunday afternoon - helped me clear a VERY resilient cache that even survived a complete reboot!
++ Responsiveness obliterated almost completely on some devices
+    + Altered the position of some Horizontal Rules that I had added late on in the design. Whilst making a difference to the overall appearance, were in the wrong positions within DIVs and were causing distortion.
++ Errors on video display controls
+    +   Obtained the latest video link for YouTube from my colleagues in Minimotor, along with permission to use them
++ Logo on navigation bar was not linking back to the Home page
+    + Changed the href "#" to the href for the index.html 
++ Links on the footer Logo displays not opening correctly on new tabs as intended
+    + Altered the the href by adding _blank to each one to ensure compliance
+
+    
 
 
+## Testing relative to User Stories
 
-### Features
++ #### To be able to understand what services can be offered
+    + In general the feedback from seven different volunteers was that the bare bones of what we do in Electromotors was accurately announced, there was room for more webpages which could develop the information in a much broader sense. I explained that the current brief was for 3 pages
+    + Feedback following this explanation resulted in a "less is more" rewrite of some information to avoid confusion. In essence what I did was to slim down the information displayed to avoid overload from a UX perspective.
++ #### To be guided as to what information I need to impart
+    + The general feedback from this was that I did NOT achieve that goal in any meaningful way at this stage. I intend to return to this issue by developing sub-pages for both Sales and Repairs where the nitty gritty that i decided not to implement in the original  pages as explained above would be more desirable. One example would be with the Sales page and the section on Three Phase motors that I could explain in depth what types there were and include a form for the client to ask about specifics
+
++ #### To know Electromotors location and opening times.
+    + Once again feedback was that this was NOT covered yet and will be considered by adding another main page in the future.
+
++ #### To be able to navigate the site easily.
+    + Through  a process of ongoing opinion from my volunteers, I altered this as I developed the site. The headings were made easier to understand and Repairs, for example was reduced from the former Repairs and Spares title.
+    + Following consulation with at least 2 people it was decided that it would be better UX to display the page that was landed on within the Navigation Bar in a larger font in addition to the smaller link on the right hand side. I believe that made a MUCH better impact on the clarity of where the viewer was at any time
+
+# Features
 
 ##### Existing Features
 
@@ -213,7 +257,9 @@ used with the express permission of the copyright owner at Minimotor who gave pe
 
 
 # Responsiveness
-All efforts have been made during testing to ensure responsiveness regardless of the medium being used
+All efforts have been made during testing to ensure responsiveness regardless of the medium being used.
+
+It took some time to iron out various features but was worth it in the end when ALL my volunteers on various different phones, laptops, tablets etc. replied saying that  landscape and portrait views were satisfactory
 
 ![Image](https://github.com/zonkolooney/electromotors_ms1/blob/master/assets/images/Am-I-Responsive_electromotors.jpg)
 
@@ -228,3 +274,6 @@ In order to deploy the website I carried out the following in order
 5. Where it says Source click the drop-down menu labelled None and select Master Branch
 6. Ensure the /root is the folder and click Save
 7. The page is now deployed
+
+# Declaration
+This website is intended for educational use only
