@@ -134,16 +134,16 @@ I have attempted to create uniformity throughout the website in various shades o
 # Attribution and Credits
 [Help with some CSS](https://www.w3schools.com) W3 Schools
 
-## Inspecting and repairing commutators on the Repairs page was greatly assisted by the use of some very clear images of the methods used which I copied from
+#### Inspecting and repairing commutators on the Repairs page was greatly assisted by the use of some very clear images of the methods used which I copied from
  (https://www.howacarworks.com/electrical-systems/replacing-dynamo-brushes) with the only modification being resizing to suit the page layout.
 
-## For the Bearing Replacement section of this same page I was impressed by the quality of the images on both of the following sites
+#### For the Bearing Replacement section of this same page I was impressed by the quality of the images on both of the following sites
 
 https://www.plantengineering.com/wp-content/uploads/sites/4/2015/10/PLE1511_MechSol_SKF1.jpg
 
 https://www.kugellager-express.de/media/image/product/6939/md/deep-groove-ball-bearing-6412-open-60x150x35-mm.jpg
 
-## The motor rewind photos were taken from the following sites
+#### The motor rewind photos were taken from the following sites
 
 "Rewound motor which has been partially reassembled"
 https://www.wikihow.com/images/thumb/1/1f/Rewind-an-Electric-Motor-Step-10-Version-4.jpg/aid704209-v4-728px-Rewind-an-Electric-Motor-Step-10-Version-4.jpg
@@ -154,7 +154,7 @@ https://www.seekpng.com/png/full/211-2114050_electric-motor-repair-electric-moto
 "Pre-formed coil being inserted in insulated stator slot by hand"
 https://www.wikihow.com/images/thumb/1/1f/Rewind-an-Electric-Motor-Step-10-Version-4.jpg/aid704209-v4-728px-Rewind-an-Electric-Motor-Step-10-Version-4.jpg
 
-## The Exploded diagram of the DC motor
+#### The Exploded diagram of the DC motor
  
 
 "A DC motor which has been dismantle to show constituent parts" 
@@ -163,15 +163,15 @@ A VERY descriptive and clear image was taken from
 
 "https://evmc2.files.wordpress.com/2014/12/step2_img01.jpg?w=470&h=282"
 
-## The video on the Minimotors page
+#### The video on the Minimotors page
 "https://www.youtube.com/embed/6iM52ibrN1s"
 
 Was copied from my own website and 
 used with the express permission of the copyright owner at Minimotor who gave permission for the YouTube link to be embedded
 
 
- # Testing
-### Technologies Used
+
+# Technologies Used
 
 ##### 1. Languages
 
@@ -188,9 +188,8 @@ used with the express permission of the copyright owner at Minimotor who gave pe
 > ![Image](https://res.cloudinary.com/jimlynx/image/upload/v1593528776/Logos/GoogleFonts-50_mx57p6.png) [Google Fonts](https://fonts.google.com/) - Overall Typography import.  
 
 
-# BUGS and swatting them!...................or TESTING to give it the proper heading
-
-+ MAJOR problems with displaying NAVBAR correctly - might reconsider usie of Bootstrap. Problem arises on responsive resizing down to to mobile now even though my origial design was workibg fine there on start-up.
+# BUGS and swatting them!
++ MAJOR problems with displaying NAVBAR correctly - might reconsider use of Bootstrap. Problem arises on responsive resizing down to to mobile now even though my original design was working fine there on start-up.
 + Came across a difficulty with text below rows of photograph not aligning properly. Top heights of text are different
 + **** Learn how to align text at the bottom of a div  
 + Kevin on suupport page VERY helpful on a rainy Sunday afternoon - helped me clear a VERY resilient cache that even survived a complete reboot!
@@ -202,9 +201,9 @@ used with the express permission of the copyright owner at Minimotor who gave pe
 ##### Existing Features
 
 > - Designed with HTML5, CSS3 and Bootstrap.
-> - 3 Page site with .
+> - 3 Page site with images relevant to textual content.
 > - Fixed navigation allows the user to easily navigate, regardless of which page visited.
-> - Fixed footer allows the user quick accessibility to supplier links.
+> - Fixed footer allows the user quick accessibility to supplier link, which will open on new pages.
 
 
 ##### Features Left to Implement when skills develop
@@ -213,7 +212,8 @@ used with the express permission of the copyright owner at Minimotor who gave pe
 > - Integration of Social media Page to have a live update feeds of new developments.
 
 
-##### Responsiveness
+# Responsiveness
+All efforts have been made during testing to ensure responsiveness regardless of the medium being used
 
 ![Image](https://github.com/zonkolooney/electromotors_ms1/blob/master/assets/images/Am-I-Responsive_electromotors.jpg)
 
